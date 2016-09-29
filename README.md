@@ -7,6 +7,6 @@ For more details on the formats supported: [Supported Formats](https://tika.apac
 
 ## Srategy 
 
-A first C++ wrapper is taking care of the creation of a Java Virtual Machine(JVM) and loading Tika Java library.
+A first C++ wrapper is taking care of the creation of a Java Virtual Machine(JVM) as well as loading the Tika Java library via JNI.
 
 It is then encapsulated in a DLL which is dynamically loaded by UE4 and called from a blueprint library.
